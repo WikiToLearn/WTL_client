@@ -92,7 +92,6 @@ ApplicationWindow {
 <meta name=\"ResourceLoaderDynamicStyles\" content=\"\"/>
 <link rel=\"stylesheet\" href=\\http://en.wikitolearn.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=neverland\"/>
 <script async=\"\" src=\"http://en.wikitolearn.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=neverland\"></script>
-<meta name=\"generator\" content=\"MediaWiki 1.27.0\"/>
 <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>
 <link rel=\"shortcut icon\" href=\"http://en.wikitolearn.org/favicon.ico\"/>
 <link rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"/opensearch_desc.php\" title=\"WikiToLearn - collaborative textbooks (en)\"/>
