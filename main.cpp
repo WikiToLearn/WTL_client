@@ -205,6 +205,15 @@ int main(int argc, char *argv[])
 
     }
 
+    if(QFile::exists(dir.absoluteFilePath("wikitolearnskin.css")))
+    {
+        qDebug() << "already downloaded wikitolearnskin.css";
+    }
+    else{
+        QString url = "https://en.wikitolearn.org/load.php?debug=false&lang=en&modules=ext.echo.badgeicons%7Cext.echo.styles.badge%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskin.wikitolearn&only=styles&skin=wikitolearnskin";
+        css_download(url,"wikitolearnskin.css",path);
+    }
+
 
 
 
