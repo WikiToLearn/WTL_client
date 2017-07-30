@@ -73,7 +73,7 @@ ApplicationWindow {
     }
 
     /* extract_json takes the requried info from the JSON
-       that was passed by the API .
+       that was passed by the WTL API .
 
       */
     function extract_json()
