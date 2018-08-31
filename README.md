@@ -1,6 +1,7 @@
 # W2L
 WikiToLearn desktop client is a client to browse wikitolearn content on your devices . The client can browse wikitolearn, save the pages offline reading too . Go ahead and give it a try !!
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cd1f1c8778ed4614ab748b82417bd824)](https://app.codacy.com/app/hackertron/WTL_client?utm_source=github.com&utm_medium=referral&utm_content=WikiToLearn/WTL_client&utm_campaign=Badge_Grade_Dashboard)
 [![Documentation Status](https://readthedocs.org/projects/wtld/badge/?version=latest)](http://wtld.readthedocs.io/en/latest/?badge=latest)
 
 ## Linux Screenshot
