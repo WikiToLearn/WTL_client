@@ -1,13 +1,12 @@
-# Getting the source 
+# How to setup the WikiToLearn client
+
+## Getting the source 
 
 1. git clone [https://github.com/hackertron/W2L.git](https://github.com/hackertron/W2L.git)
 
 
-## Project Structure
-
-your directory should look like this 
-Structure: ![project-structure](https://camo.githubusercontent.com/3023d1503bef4c19b33f4a25d81cff1c28b8f8aa/68747470733a2f2f73332e706f7374696d672e6f72672f6b386477693532777a2f7374727563747572652e706e672e "Title")
-
+2. Your directory structure should look like this: 
+![project-structure](https://camo.githubusercontent.com/3023d1503bef4c19b33f4a25d81cff1c28b8f8aa/68747470733a2f2f73332e706f7374696d672e6f72672f6b386477693532777a2f7374727563747572652e706e672e "Title")
 
 ## Setting up development environment 
 
@@ -15,12 +14,12 @@ Structure: ![project-structure](https://camo.githubusercontent.com/3023d1503bef4
 
 #### Download 
 
-Qt open-source ( linux 32-bit or 64-bit) from [https://www.qt.io/download-open-source/#section-2](https://www.qt.io/download-open-source/#section-2)
+Qt open-source ( GNU/Linux 32-bit or 64-bit) from [https://www.qt.io/download-open-source/#section-2](https://www.qt.io/download-open-source/#section-2)
 
 
 #### Install
 
-Adjust permission, run the installer and follow the instruction to complete the installation.
+Adjust the permissions, run the installer and follow the instructions to complete the installation.
 
 	chmod +x qt-opensource-linux-x64-5.7.0.run
 	./qt-opensource-linux-x64-5.7.0.run
@@ -48,16 +47,17 @@ Adjust permission, run the installer and follow the instruction to complete the 
 
 ### Windows
 
-Setting up Qt on windows is very straightforward .  Just download the qt from their official site and install it .
+Setting up Qt on Windows is very straightforward.
+Just download Qt from the official Qt websites and install it as instructed.
 
 #### Download 
 
-Qt open-source (  32-bit or 64-bit) from [https://www.qt.io/download-open-source/#section-2](https://www.qt.io/download-open-source/#section-2)
+Qt open-source (32-bit or 64-bit) from [https://www.qt.io/download-open-source/#section-2](https://www.qt.io/download-open-source/#section-2)
 
 
 #### Install
 
-Double-click on the downloaded exe file and follow the instructions . 
+Double-click on the downloaded .exe file and follow the instructions. 
 
 For in-depth details go to : [http://doc.qt.io/qt-5/windows-support.html](http://doc.qt.io/qt-5/windows-support.html)
 
@@ -67,26 +67,24 @@ For in-depth details go to : [http://doc.qt.io/qt-5/windows-support.html](http:/
 
 #### Download 
 
-Qt open-source  from [https://www.qt.io/download-open-source/#section-2](https://www.qt.io/download-open-source/#section-2)
+Qt open-source from [https://www.qt.io/download-open-source/#section-2](https://www.qt.io/download-open-source/#section-2)
 
 Refer the official documentation of [Qt for OS X](http://doc.qt.io/qt-5/osx.html) for in-detail instructions.
 
 
 ### Android 
 
-Please refer the official qt for android documentation : [http://doc.qt.io/qt-5/androidgs.html](http://doc.qt.io/qt-5/androidgs.html)
+Please refer the official Qt for android documentation: [http://doc.qt.io/qt-5/androidgs.html](http://doc.qt.io/qt-5/androidgs.html)
 
 
-### Iphone / Ipad
+### iPhone / iPad
 
-Please refer the official qt for Iphone / ipod doucmentation : [http://doc.qt.io/qt-5/ios-support.html](http://doc.qt.io/qt-5/ios-support.html)
-
-
+Please refer the official Qt for iPhone/iPad doucmentation: [http://doc.qt.io/qt-5/ios-support.html](http://doc.qt.io/qt-5/ios-support.html)
 
 
 ## Test if everything is setup correctly 
 
-You can test that your Qt installation is successful by opening an existing example application project.
+You can test that your Qt installation has been successful by opening an existing example application project.
 
 
 1. In the **Welcome** mode, select **Examples**
@@ -97,24 +95,24 @@ You can test that your Qt installation is successful by opening an existing exam
 
 [![kits.png](https://s3.postimg.org/j4dyj9u43/kits.png)](https://postimg.org/image/972xq7mi7/)
 
-4. Click  (Run) to build and run the application.
+4. Click (Run) to build and run the application.
 
 5. To see the compilation progress, press Alt+4 to open the Compile Output pane.
 
 
-## Running the wikitolearn client on your sytem 
+## Running the WikiToLearn client on your system 
 
-Once you have the source in your filesystem 
+Once you have the source code in your filesystem 
 
-- open up Qt creator 
+- Open up Qt creator 
 
 - Click on **File** -> Open **FILE** or **PROJECT**
 
-- Browse to the location where you have saved the source 
+- Browse to the location where you have saved the source code 
 
-- Select wtl.pro file and click OK !!
+- Select wtl.pro file and click OK
 
-- Build & run the projet by Clicking on green arrow button in left side pane 
+- Build and run the projet by clicking on green arrow button in left side pane
 
 
 ## References
